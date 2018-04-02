@@ -1,0 +1,190 @@
+.List{
+  padding: 0 10px;
+  margin:10px;
+}
+.item{
+
+  position: relative;
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+  overflow: hidden;
+  margin-bottom: 18px;
+  background-color: #ffffff;
+  .img{
+    text-align: center;
+  }
+  .badgeRob{
+    transform: rotate(-45deg);
+    display: block;
+    position: absolute;
+    left: -60px;
+    top: 30px;
+    background-color: #e14c34;
+    padding: 10px 100px;
+    color: #fff;
+    font-size: 32px;
+  }
+  .detail{
+    display: flex;
+    padding:15px 20px;
+    overflow: hidden
+  }
+  .txt{
+    flex: 1.8;
+    overflow: hidden;
+    .name{
+      text-overflow: ellipsis;
+      overflow: hidden;
+      font-weight: bold;
+      font-size: 34px;
+      white-space: nowrap;
+      color: #333;
+    }
+    .price{
+      color: #d84c2b;
+      font-size: 28px;
+      margin: 20px 0 10px;
+      b{
+        font-size:32px;
+      }
+      span{
+        margin-left: 25px;
+        font-size: 24px;
+      }
+    }
+    .original{
+      font-size: 26px;
+      color: #5c5c5c;
+    }
+
+  }
+  .buy{
+    flex:0.8;
+    text-align: right;
+    .save{
+      border:1px solid #df4d34;
+      // border-left: 0;
+      border-radius: 7px;
+      color: #df4d34;
+      height:36px;
+      line-height: 36px;
+      text-align: left;
+      font-size: 24px;
+      margin:10px 0 20px;
+      overflow: hidden;
+      > div{
+        display: inline-block;
+      }
+      span{
+        background-color: #df4d34;
+        color: #ffffff;
+        display: inline-block;
+        padding: 0 10px;
+        height:36px;
+      }
+      i{
+        font-style: normal;
+        text-align: center;
+        padding-left: 20px;
+        display: inline-block;
+      }
+    }
+
+  }
+  .buyBtn{
+    border:1px solid #df4d34;
+    border-radius: 7px;
+    color: #df4d34;
+    padding: 7px 12px;
+    display: inline-block;
+    font-size: 26px;
+  }
+  .time{
+    position: absolute;
+    right: 22px;
+    top:12px;
+    color: #a7d841;
+    font-size: 26px;
+    span{
+      color: #ffffff;
+      background-image:linear-gradient(to bottom,#96c535,#a6d840);
+      padding: 0 5px;
+      display: inline-block;
+      margin-right: 2px;
+      box-shadow: 4px 0 20px #e2efc4;
+      border-radius: 7px;
+      border-bottom: 1px solid #ffffff;
+
+
+    }
+  }
+}
+.SecondKill{
+  img{
+    width:300px;
+  }
+}
+.soldOut{
+  background-color: rgba(0,0,0,0.2);
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  overflow: hidden;
+  span{
+    transform: rotate(-45deg);
+    display: block;
+    position: absolute;
+    left: -65px;
+    top: 25px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px 80px;
+    color: #fff;
+    font-size: 34px;
+  }
+}
+.bulk{
+  .bulkBadge{
+    transform: rotate(45deg);
+    display: block;
+    position: absolute;
+    right: -80px;
+    top: 30px;
+    background-color: #95c82d;
+    padding: 10px 100px;
+    color: #fff;
+    font-size: 32px;
+  }
+  .txt{
+    flex: 1.2;
+    font-size: 28px;
+    .name{
+      margin: 30px 0 40px;
+    }
+    .price{
+      color: #95c82d;
+    }
+    .original{
+      span{
+        margin-left: 20px;
+        color: #898989;
+        font-size: 24px;
+      }
+    }
+    .bulkBtn{
+      margin-top: 20px;
+      span{
+        // margin-left: 25px;
+      }
+    }
+    .buyBtn{
+      color: #95c82d;
+      border-color: #95c82d;
+    }
+  }
+  .Imgs{
+    flex: 0.8;
+    img{
+      width:100%;
+    }
+  }
+}

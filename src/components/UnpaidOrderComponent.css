@@ -1,0 +1,87 @@
+
+.contentStyle {
+    background-color: #ffffff;
+}
+
+.payContainerStyle {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 1.24rem
+}
+
+.sumContainerStyle {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sumTextStyle {
+    font-size: .32rem;
+    padding-right: .26666667rem;
+    padding-top: .18666667rem;
+}
+.hr{
+    padding-top: .18666667rem;
+}
+.orderIdContainerStyle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 1.0666666rem;
+    line-height: 1.0666666rem;
+    font-size: .32rem
+}
+
+.orderIdStyle {
+    padding-left: .26666667rem;
+    font-size: .32rem;
+    color: #999999;
+}
+
+.waitPayTextStyle {
+    color: #64b357;
+    padding-right: .26666667rem;
+    font-size: .32rem
+}
+.payTextStyleL{
+    color: #f42727;
+    border-radius: .06666667rem;
+    border: 1px solid #f42727;
+    width: 2rem;
+    height: .68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .26666667rem;
+    font-size: .32rem
+}
+
+.payTextStyle {
+    color: #f42727;
+    border-radius: .06666667rem;
+    border: 1px solid #f42727;
+    width: 2rem;
+    height: .68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .26666667rem;
+    font-size: .32rem
+}
+.payTextStyleLdel {
+    color: #666666;
+    border-radius: .06666667rem;
+    border: 1px solid #666666;
+    width: 2rem;
+    height: .68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .26666667rem;
+    font-size: .32rem
+}

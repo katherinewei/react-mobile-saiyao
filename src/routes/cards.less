@@ -1,0 +1,282 @@
+.tips{
+  background-color: #f2f2f2;
+  //text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+  color: #9b9b9b;
+  padding:15px;
+  svg{
+    margin-right:5px;
+    vertical-align: middle;
+    float:left;
+    width:36px;
+  }
+}
+.cardList{
+    background-color: #fff;
+}
+.cards{
+  display: -webkit-box;
+  display: flex;
+  padding: 0.3rem .3rem 0;
+  background-repeat: no-repeat;
+ // background: url('../assets/staticIcon/bgCard0.png') no-repeat;
+  background-size: 100% 100%;
+  border-radius: 15px;
+  margin: .3rem;
+  color: #fff;
+  position: relative;
+  .cardsA{
+    display: block;
+    width:100%;
+  }
+  img{
+    max-width: 1.5rem;
+    height:1.5rem;
+    margin-right: 0.3rem;
+    background-color: #cccccc;
+    flex: 0 0 1.5rem;
+  }
+
+  .rowText{
+    width:76%;
+    color: #fff;
+
+    h3{
+      font-size: 48px;
+      line-height: 1rem;
+    }
+    .more{
+      float: right;
+      margin-top: -.1rem;
+      position: relative;
+      margin-right: 0.35rem;
+      b{
+        width:13px;
+        height:13px;
+        position: absolute;
+        top:10px;
+        right: -5px;
+        background-color: #ff5500;
+        display: block;
+        border-radius: 50%;
+      }
+    }
+    .cno{
+      margin-top: .06rem;
+      font-size:22px;
+    }
+    .btnCons{
+      color:#999;
+      font-size:.36rem
+    }
+    .deposit{
+     // height:1.5rem;
+    }
+    .btn.depositBtn{
+      background: transparent;
+      color: #fff;
+      padding: 0 .15rem;
+      //font-size: .25rem;
+
+      //height: .45rem;
+      //line-height: .45rem;
+    }
+    >div:first-child {
+      // flex: 1.7;
+    }
+    &.msgFirst{
+
+      >div:first-child{
+        text-align: left;
+        line-height: .5rem;
+        border-right:1px solid #fff;
+      }
+  }
+  .msg{
+    font-size: 24px;
+    margin: .65rem 0;
+    //text-align: center;
+    width:100%;
+    LINE-HEIGHT: 44px;
+    }
+    .balance{
+      font-size: 32px;
+      float: left;
+      text-align: left;
+      width:5.3rem;
+      margin-bottom: .1rem;
+    }
+    a{
+      // background-color: #108ee9;
+      font-size: 26px;
+      border-radius: 25px;
+      //line-height: .5rem;
+      &.btn{
+        border-radius: 5px;
+        margin-left: .5rem;
+        //margin-top: .2rem;
+        LINE-HEIGHT: 44px;
+        HEIGHT: 44px;
+        padding: 0 .25rem;
+        background-color: #fff;
+        color: #f5ab30;
+      }
+    }
+    .recharge{
+      //float: left;
+      //float: right;
+     // display: inline-block;
+      a{
+
+        margin-left: 0;
+      }
+
+    }
+
+  }
+  .desc{
+    margin-bottom: 0.16rem;
+    font-weight: bold;
+  }
+  .scan{
+    position: absolute;
+    right: 0rem;
+    top:1rem;
+    width:150px;
+    text-align: center;
+
+    svg{
+      width:100px;
+      height:100px;
+    }
+    span{
+      display: block;
+      margin-top: 10px;
+      font-size: 24px;
+    }
+
+  }
+}
+.myRecord{
+  //background-color: #f00;
+  .title{
+    font-size: 32px;
+    padding:24px;
+    border-bottom: 1px solid #ccc;
+  }
+}
+:global{
+  .modalBody{
+    .am-modal-content{
+      padding-top: 0 !important;
+      overflow: inherit;
+      border-radius: 0.19444rem !important
+    }
+    .am-modal-body{
+      text-align: left;
+      line-height: .55rem;
+      padding:0 0 .5rem  !important;
+      overflow: inherit;
+    }
+    .am-modal-close{
+      display: none;
+    }
+  }
+}
+
+.pop{
+  position: relative;
+  .iconTit {
+    background: url("../assets/staticIcon/iconTip.png") no-repeat;
+    background-size: 100%;
+    width:168px;
+    height:168px;
+    position: relative;
+    top:-1rem;
+    margin: 0 auto;
+  }
+  .close{
+    position: absolute;
+    right:0;
+    top:10px;
+    width:60px;
+    height:60px;
+    color: #ccc;
+  }
+  .content{
+    margin-top: -.85rem;
+    color: #9b9b9b;
+    border-bottom: 1px solid #ccc;
+    padding:0 .4rem .3rem;
+    margin-bottom: .3rem;
+
+    h3{
+      font-size: 36px;
+    }
+    p{
+      font-size: 28px;
+      margin-top: .3rem;
+      span{
+        color: #59a800;
+      }
+    }
+
+  }
+  .footer{
+    border-radius: 10px;
+    border:1px solid #59a800;
+    color: #59a800;
+    margin:0 .4rem;
+    line-height: 1rem;
+    overflow: hidden;
+    font-size: 26px;
+    span{
+      display: inline-block;
+      width:50%;
+      text-align: center;
+    }
+    a{
+      height:1rem;
+      line-height: 1rem;
+      vertical-align: middle;
+      border-radius: 0;
+      margin-top: 0;
+      width: 50%;
+      &.btn{
+        background-color: #59a800;
+        border-width:0;
+      }
+
+    }
+  }
+}
+.popEwm{
+  .iconTit{
+    background-image: url("../assets/staticIcon/iconewm.png");
+  }
+  .content{
+    text-align: center;
+    img{
+      width: 70%;
+      padding: 5%;
+      border: 3px dashed #9b9b9b;
+      border-radius: 10px;
+      margin: 23px auto;
+      display: block;
+    }
+  }
+  .footer{
+    border-width: 0;
+    a{
+      width:100%;
+      border-radius: 10px;
+    }
+  }
+}
+
+:global{
+  .modalBody{
+    width:70% !important;
+  }
+}

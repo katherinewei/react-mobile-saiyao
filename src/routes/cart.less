@@ -1,0 +1,117 @@
+
+.content{
+  padding-bottom: 150px;
+}
+.myList{
+  img{
+    width:120px;
+    height:120px;
+    border:1px solid #ddd;
+    margin: 10px 0;
+  }
+}
+.myItem{
+  border-bottom: 1px solid #ddd;
+  //padding-bottom: 10px;
+  //margin-bottom: 10px;
+  &:last-child{
+    border-bottom-width: 0;
+    margin-bottom: 0;
+  }
+}
+
+.delete{
+  color: #fff;
+  background-color: #ec544d;
+  border-radius: 0;
+  height: 100%;
+  //width: 2rem;
+  display: block;
+  line-height: 2rem;
+  border-width: 0;
+}
+.footer{
+  bottom: 90px;
+}
+.empty{
+  width:70%;
+  margin: 3rem auto 0;
+  text-align: center;
+  color: #999;
+  font-size: 32px;
+  img{
+    width: 100%;
+    margin-bottom: .5rem;
+  }
+}
+:global{
+  .my-list{
+    .editTxt{
+      padding-right: 20px;
+    }
+    .am-list-item .am-list-line .am-list-brief{
+      color: #ea3526;
+      margin-top: 0;
+    }
+    .am-list-body div:not(:last-child) .am-list-line:after{
+      border-width:0;
+    }
+    .am-list-item{
+      padding-left: 0;
+    }
+    .editBtunn{
+      .am-list-extra{
+        padding: 0 ;
+        font-size: inherit;
+      }
+
+    }
+    .am-list-line{
+      padding-right: 0;
+      .am-list-content {
+        p{
+          padding-left: 20px;
+        }
+      }
+    }
+
+
+  }
+  .cartStep{
+    height:0.8rem;
+    .am-stepper-handler, .am-stepper-handler-up-inner, .am-stepper-handler-down-inner{
+      width: 0.6rem !important;
+      height: 0.6rem !important;
+      line-height: 0.45rem !important;
+    }
+    .am-stepper-input-wrap{
+      height: 0.6rem !important;
+      line-height: 0.6rem !important;
+    }
+    .am-stepper{
+      height: 0.6rem !important;
+      line-height: 0.6rem !important;
+
+    }
+    .am-stepper-input{
+      font-size: 0.32rem !important;
+      width: 110px !important;
+    }
+    .am-stepper-handler{
+       border: 1px solid #ccc !important;
+    }
+    .am-icon-xxs {
+      width: 0.32667rem;
+      height: 0.32667rem;
+    }
+  }
+  .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+    background-color: #64b357;
+    border-width: 0;
+    &:after{
+      border-color: #ffffff;
+      right:15px;
+    }
+  }
+
+}

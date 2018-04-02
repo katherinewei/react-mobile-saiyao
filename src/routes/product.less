@@ -1,0 +1,253 @@
+.detail{
+  text-align: center;
+  padding: 20px 0 110px;
+  background-color: #ffffff;
+  font-size: 28px;
+
+}
+
+
+/**/
+.detailTile{
+  background-color: #fff;
+  font-size: 36px;
+  // padding:30px ;
+  //h3{
+  //  margin: 20px 0;
+  //  font-size: 30px;
+  //}
+  .flexDetail{
+    display: flex;
+    background-color: #77b162;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    .price{
+      flex: 1;
+      color: #ffffff;
+      padding-left: 20px;
+      font-size: 70px;
+      b{
+        font-size: 40px;
+      }
+      span{
+        font-size: 24px;
+        margin-left: 20px;
+        color: #f5f5f5;
+        display: inline-block;
+        line-height: 30px;
+      }
+    }
+    .time{
+      flex: 0.6;
+      background-color: #e8e76d;
+      font-size:22px;
+      color: #79140e;
+      height:100px;
+      position: relative;
+      //overflow: hidden;
+      //margin-top: 15px;
+      //padding-top: 15px;
+     // line-height: 40px;
+      //border-top:1px solid #f2f2f2;
+      &:before{
+        content: "";
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-right: 25px solid  #e8e76d;
+        position: absolute;
+        top: 0;
+        left: -23px;
+      }
+      p{
+        padding-left: 15px;
+        padding-top: 15px;
+      }
+      em{
+        font-size: 22px;
+        padding-left: 5px;
+      }
+      span{
+        color: #e8e76d;
+        background-color:  #79140e;
+        font-size: 22px;
+        padding: 0 5px;
+        border-radius: 2px;
+      }
+    }
+  }
+
+  .introduce{
+    padding:20px;
+    h3{
+      color: #333;
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+    font-size: 26px;
+    color: #999;
+    margin-top: 15px;
+    .stock{
+      text-align: right;
+    }
+  }
+}
+
+.bordeRight{
+   border-right:1px solid #eaeaea;
+ }
+.positionIconStyle{
+  font-family: "iconfont";
+  font-size: 50px;
+  font-style: normal;
+}
+
+.noMargin{
+  margin-left: 0 !important;
+}
+
+.badge{
+  top:-20px;
+  left:-20px;
+}
+.bulkList{
+ // margin: 15px;
+  padding:0  20px;
+  background-color: #ffffff;
+  overflow: hidden;
+  font-size: 26px;
+  .flex{
+    height:80px;
+    line-height: 80px;
+  }
+  div.title{
+    height:70px;
+    line-height: 70px;
+    font-size: 28px;
+    .titleleft{
+      flex: 1.5;
+
+
+    }
+  }
+}
+.flex{
+  display: flex;
+  height:100px;
+  line-height: 100px;
+  border-bottom: 1px solid #f2f2f2;
+  &.flex2{
+    flex: 2;
+  }
+  > div {
+    flex: 1;
+    align-items: center;
+
+    &.info {
+      flex: 1.5;
+      font-size: 28px;
+    }
+  }
+  span.count{
+    color: #64b357;
+  }
+  .btn{
+    background-color: #64b357;
+    color: #ffffff;
+    border-width: 0;
+  }
+
+}
+
+
+.right{
+  text-align: right;
+}
+.viewmore{
+  color: #999;
+}
+
+.modalBody{
+  position: relative;
+  > div{
+    overflow: inherit;
+  }
+  .close{
+    position: absolute;
+    right:-20px;
+    top:-20px;
+    background-color: #f2f2f2;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+  }
+  .header{
+    height:100px;
+    line-height: 100px;
+    text-align: center;
+
+  }
+  .body{
+    border-top:1px solid #f2f2f2;
+    .bulkList{
+      padding: 0;
+    }
+  }
+  .footer{
+    text-align: center;
+    height:70px;
+    line-height: 70px;
+    font-size: 24px;
+  }
+}
+
+.subTitle{
+  background-color: #ffffff;
+  padding: 15px 0;
+  margin: 0 ;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 28px;
+}
+
+.o_detailTile{
+  padding: 20px;
+  font-size: 26px;
+  background-color: #ffffff;
+  h3{
+    font-size: 36px;
+  }
+  .stock{
+    text-align: right;
+    color: #999;
+  }
+  .o_price{
+    color: #999;
+    span{
+      margin: 15px 0 10px;
+      color: #77b162;
+      font-size: 40px;
+      display: block;
+      &:before{
+        content: '￥';
+        font-size: 30px;
+      }
+    }
+  }
+  .buy_time{
+    margin-top: 15px;
+    color: #457733;
+  }
+}
+
+
+  .button a{
+    line-height: 1.3rem !important;
+    padding: 0 !important;
+  }
+
+  .backBtn{
+    background-color: #64b357;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+  }

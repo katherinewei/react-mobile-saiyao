@@ -1,0 +1,78 @@
+.recharge{
+  margin-top: 24px;
+  padding: 24px;
+  background: #fff;
+  color: #999;
+  .shop{
+    margin:.2rem 0 .3rem 0;
+    font-size: 28px;
+    color: #9b9b9b;
+    span{
+     margin-left: .3rem;
+    }
+  }
+  .name{
+    font-size: 48px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: .3rem;
+    margin-bottom: .3rem;
+    color: #000;
+  }
+  .balance{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: .3rem;
+    margin-bottom: .3rem;
+    font-size: 32px;
+    span{
+      color:#f86951;
+    }
+  }
+  .limit{
+    font-size: 32px;
+  }
+  .flex{
+    padding-top: .2rem;
+    .flexItem{
+      width:8rem;
+    }
+    .item{
+      border:3px solid #cccccc;
+      border-radius: 5px;
+      text-align: center;
+      padding: .25rem 0;
+      color: #4a4a4a;
+      width:30%;
+      margin: 3% 3% 0 0;
+      position: relative;
+      &:nth-child(3n){
+        margin-right: 0;
+      }
+      &.active{
+        border-color: #63b900;
+        color: #63b900;
+        background: url("../assets/staticIcon/activeT.png") right bottom no-repeat;
+        background-size: 36px;
+        span{
+          color: #63b900;
+        }
+      }
+      p{
+        font-size: 36px;
+        //margin-bottom: 14px;
+      }
+      span{
+        font-size: 24px;
+        color: #9b9b9b;
+      }
+      .active{
+
+      }
+    }
+
+  }
+
+}
+.rechargeBtn{
+  margin: .5rem 0;
+  padding:  24px;
+}

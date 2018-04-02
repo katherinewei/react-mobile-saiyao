@@ -1,0 +1,411 @@
+
+:global {
+  #app {
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  html, body, #root {
+    //overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-size: medium;
+    background-color: #e4e4e4;
+    //font-family: Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, Arial, sans-serif;
+  }
+  html, body, #root,.am-badge-text{
+    font-family:'Source Han Sans' !important;
+  }
+
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: .74666667rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    margin-top: -.05333333rem;
+    width: .74666667rem;
+    height: .73333333rem;
+  }
+  .tabIcon{
+      font-size: .74666667rem;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke-width: 0.2px;
+      -moz-osx-font-smoothing: grayscale;
+      display: flex;
+      margin-top: -.05333333rem;
+      width: .74666667rem;
+      height: .73333333rem;
+  }
+
+  .icon-dingwei:before {
+    content: "\e646";
+  }
+
+  .icon-gouwuchedown:before {
+    content: "\e642";
+  }
+
+  .icon-gouwucheup:before {
+    content: "\e641";
+  }
+
+  .icon-fenleidowm:before {
+    content: "\e640";
+  }
+
+  .icon-fenleiup:before {
+    content: "\e63f";
+  }
+
+  .icon-wodedownnnew:before {
+    content: "\e63e";
+  }
+
+  .icon-homedown:before {
+    content: "\e63d";
+  }
+
+  .icon-wodeupnew:before {
+    content: "\e63c";
+  }
+
+  .icon-home:before {
+    content: "\e639";
+  }
+
+  .icon-gengduo:before {
+    content: "\e638";
+  }
+
+  .icon-xiaoxizhongxin:before {
+    content: "\e637";
+  }
+
+  .icon-yijianfankui01:before {
+    content: "\e635";
+  }
+
+  .icon-sou:before {
+    content: "\e633";
+  }
+
+  .icon-dangqiandingwei:before {
+    content: "\e632";
+  }
+
+  .icon-yuanquan:before {
+    content: "\e647";
+  }
+
+  .icon-yuanquandown:before {
+    content: "\e64a";
+  }
+  .am-search-cancel {
+    font-size: 20px !important;
+  }
+  .am-search-input input[type="search"]{
+    font-size: 20px !important;
+  }
+  .am-card-body{
+    padding: 0.3rem 10px 0.3rem !important;
+  }
+  img {
+    border: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  input, select, textarea {
+    outline: none;
+    border: none;
+    background: none;
+  }
+
+  textarea {
+    resize: none;
+  }
+  .login-input::-webkit-input-placeholder {
+    text-align: center;
+  }
+
+  .login-input::-moz-placeholder {
+    text-align: center;
+  }
+
+  .login-input:-ms-input-placeholder {
+    text-align: center;
+  }
+
+  input[placeholder] {
+    text-overflow: inherit;
+    overflow: visible;
+  }
+
+  ::-moz-placeholder {
+    text-overflow: inherit;
+    overflow: visible;
+  }
+
+  /* firefox 19+ */
+  input:-moz-placeholder {
+    text-overflow: inherit;
+    overflow: visible;
+  }
+  .am-tab-bar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:100px !important;
+    z-index: 99;
+  }
+  .am-tab-bar-bar .am-tab-bar-tab-title{
+    display: block !important;
+    font-size: .26666667rem !important;
+  }
+  .am-tab-bar-bar {
+    height: 1.33333333rem !important;
+  }
+  .am-list-header{
+     font-size: 0.4rem !important;
+     padding: 20px 20px 5px 10px !important;
+  }
+  .am-list-content{
+    font-size: 0.4rem !important;
+  }
+  .am-stepper{
+    font-size: 0.4rem !important;
+  }
+  .am-stepper-handler, .am-stepper-handler-up-inner, .am-stepper-handler-down-inner{
+    //width: 0.7rem !important;
+    //height: 0.7rem !important;
+    //line-height: 1rem !important;
+  }
+  .am-stepper-input-wrap{
+    //height: 1rem !important;
+    //line-height: 1rem !important;
+  }
+  .am-stepper{
+    //height: 1rem !important;
+    //line-height: 1rem !important;
+  }
+  .am-stepper-input{
+    //font-size: 0.4rem !important;
+    //width: 110px !important;
+  }
+  .am-stepper-handler{
+   // border: 1px solid #ccc !important;
+  }
+  .am-modal{
+     //width: 80% !important;
+  }
+  .am-modal-content{
+     padding-top: 0 !important;
+  }
+  .addressModal{
+
+  }
+  .am-modal-mask{
+    //background-color: rgba(0,0,0,0.2) !important;
+  }
+  .am-modal-body{
+   // padding: 0 !important;
+  }
+  .am-result-title{
+    font-size: 0.4rem !important;
+  }
+  .am-result .am-result-pic {
+    width: 1rem !important;
+    height: 1rem !important;
+    background-size: 1rem 1rem !important;
+  }
+  .am-result {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .iconfontRetweet {
+    font-size: .6rem;
+    width: .6rem;
+    height: .6rem;
+    color: #47b34f;
+    padding-right: 0.5rem;
+  }
+  .am-button-primary.am-button-active{
+    background-color: #64b357 !important;
+  }
+  .am-toast .anticon{
+    font-size: .74666667rem !important;
+  }
+  .am-toast-text{
+     font-size: 0.4rem !important;
+  }
+  .am-toast-text-icon{
+    padding: 0.4rem 0.4rem !important;
+  }
+  .am-swipe-text{
+    font-size: .4rem !important;
+  }
+  #cards-content {
+    .am-button-primary{
+      border-width:0;
+    }
+  }
+  
+  /*checkbox*/
+  .am-checkbox{
+    .am-checkbox-inner{
+      border:1px solid #999;
+    }
+  }
+  .am-badge-text{
+    background-color: #95c82d !important;
+  }
+
+  .addCartModal{
+    width:100% !important;
+    .am-modal-content,.am-modal-body{
+      overflow: visible;
+    }
+  }
+
+
+}
+
+
+
+:global( a ) {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+:global(a:active) {
+  text-decoration: none !important;
+  //color: #fff;
+}
+
+:global(a:hover) {
+  text-decoration: none !important;
+  //color: #fff;
+}
+
+:global( a:visited) {
+  text-decoration: none !important;
+  color: #999999;
+}
+
+:global( a:link) {
+  text-decoration: none;
+  color: #999999;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 215607 */
+  src: url('//at.alicdn.com/t/font_215607_8sb74x37206hia4i.eot');
+  src: url('//at.alicdn.com/t/font_215607_8sb74x37206hia4i.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_215607_8sb74x37206hia4i.woff') format('woff'),
+  url('//at.alicdn.com/t/font_215607_8sb74x37206hia4i.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_215607_8sb74x37206hia4i.svg#iconfont') format('svg');
+}
+.noCard{
+  width:80%;
+  margin: 3rem auto 0;
+  text-align: center;
+  color: #cccccc;
+  .icon{
+
+    svg{
+
+      width:3rem;
+      height:3rem;
+    }
+
+  }
+  p{
+
+    margin-bottom: .5rem;
+    font-size: 36px;
+  }
+}
+
+.content{
+  padding-bottom: 110px;
+}
+.Footer{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  left:0;
+  background-color: #fff;
+  z-index: 9;
+  box-shadow: 0 0 5px #dedcdc;
+
+  .linkBtn{
+    flex:0.5;
+    font-size: 30px;
+    text-align: center;
+
+  }
+  a{
+    border-width:0;
+  }
+  .button{
+    a{
+      color: #fff;
+      border-radius: 0;
+      margin-left: 0;
+      line-height: 40px;
+      font-size: 26px;
+      padding-top: 10px;
+    }
+
+
+  }
+  .cartBtn{
+    a{
+      background-color: #bedc75;
+    }
+  }
+  .buyBtn{
+    margin-left: 0;
+    a{
+      background-color: #64b357;
+    }
+  }
+  .total{
+    text-align: right;
+    font-size: 28px;
+    .price{
+      color: #db5f54;
+      margin-bottom: 5px;
+      font-size: 30px;
+    }
+    .fee{
+      color: #999;
+      font-size: 26px;
+    }
+  }
+  .clearing{
+    a{
+      background-color: #64b357;
+      border-radius: 0;
+      border-width:0;
+      color: #fff;
+    }
+  }
+}
+
+.pointNextPriceStyle {
+  font-size: 22px;
+  padding-bottom: .05333333rem;
+  font-style: normal;
+}
+.priceIcon{
+  font-size: 20px;
+  font-weight: normal;
+}
+

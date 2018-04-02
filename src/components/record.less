@@ -1,0 +1,142 @@
+:global{
+  .whitespace{
+    height:24px;
+    background-color: #f2f2f2;
+  }
+  .record{
+    margin-top: .1rem;
+    padding: 0.2rem .3rem;
+    //background-color: #fff;
+    overflow-y: auto;
+    .am-list-body{
+      border-top-width:0;
+      &:after{
+        border-bottom-width: 0 !important;
+      }
+      .am-list-item,.am-list-line{
+        min-height: 1rem;
+        &:after{
+          border-bottom-width: 0 !important;
+        }
+      }
+      .am-list-extra{
+        font-size: 26px;
+        color: #000;
+        float: right;
+        //text-align: center;
+
+      }
+    }
+    .my-list{
+      //border-bottom: 1px solid #ccc;
+      .item_record{
+        border-bottom: 1px solid #ccc;
+      }
+      .diff{
+        color: #f00;
+        &:before{
+          content: '-';
+          padding-right: 10px;
+        }
+
+      }
+      .am-icon{
+        color: #666;
+        width:30px;
+        height:30px;
+        margin-left: 10px;
+      }
+      .product{
+        min-height:auto;
+        border-width:0;
+        transition: height 0.5s ease 0s;
+        &.product_show{
+          opacity: 1;
+          height:auto;
+        }
+        &.product_hide{
+          opacity: 0;
+          height:0;
+          padding-bottom: 0;
+        }
+        .am-card-header{
+          padding-right: 0;
+          padding-left:0;
+          border-top:1px solid #ccc;
+          margin-left: 30px;
+          margin-top: 10px;
+        }
+        .am-card-header-content {
+          flex: 2;
+          //padding-right: 0;
+          img{
+            width:50px;
+          }
+        }
+        .am-card-header-content{
+          font-size: 26px;
+        }
+        .am-card-header-extra{
+          font-size: 26px;
+          color: #111111;
+          .price{
+            margin-right: 15px;
+          }
+        }
+
+      }
+    }
+    .year{
+      flex:.2;
+      margin-top: .3rem;
+      font-size: 28px;
+      &:after{
+        background-color: #ccc;
+        content: '';
+        width: 1px;
+        height:.4rem;
+        display: block;
+        float: right;
+      }
+    }
+    .am-list-item {
+      //
+      padding-left: 10px;
+      .am-list-line {
+        padding-right: 10px;
+        display: block;
+        .am-list-content{
+          font-size: 26px;
+          float: left;
+        }
+
+      }
+    }
+
+
+  }
+  .noData{
+    width: 35%;
+    margin: 0 auto 0;
+    text-align: center;
+    padding: 1rem 0;
+    img{
+      max-width: 100%;
+    }
+  }
+  .custom-pagination-with-icon{
+    width:60%;
+    padding: 0 35px;
+    margin: 35px auto;
+
+    .am-button{
+      height:50px;
+      line-height: 50px;
+      font-size: 28px;
+      padding:0 15px;
+    }
+  }
+  #ListFooter{
+    transition: opacity .5s ease 0s;
+  }
+}

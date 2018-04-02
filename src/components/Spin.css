@@ -1,0 +1,57 @@
+.contentStyle{
+   	width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*display: none;*/
+}
+
+.contentBackgroundStyle {
+ 	width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.contentContainerStyle{
+	width: 100%;
+    height: 100%;
+    z-index: 1001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerStyle {
+	width: 2rem;
+    height: 2rem;
+	background-color: #000000;
+	border-radius: .13333333rem;
+    opacity: 0.2;
+    -webkit-opacity: 0.2;
+
+}
+
+.containerStyle2 {
+    width: 2rem;
+    height: 2rem;
+    background-color: #fff;
+    border-radius: .13333333rem;
+
+
+}
+
+.imgContainerStyle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loadingLogoStyle {
+    width: 100%;
+    height: 100%;
+}

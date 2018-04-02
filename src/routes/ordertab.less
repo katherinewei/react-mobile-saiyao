@@ -1,0 +1,36 @@
+.myList{
+    flex-basis: initial;
+  }
+.cardbody{
+    text-align: right;
+    padding-right: 0.41667rem !important;
+}
+.orderTabbtn{
+    background-color: rgb(71, 179, 79);
+}
+:global{
+    .am-list-view-scrollview-content{
+      .am-list-body{
+        border: none;
+        min-height: calc(84vh);
+      }
+    }
+    #endings-content{
+        padding-bottom:0px;
+    }  
+    .am-tabs-bar .am-tabs-tab-active{
+        color: #64b357;
+    }
+    .am-tabs-ink-bar{
+        background-color: #64b357;
+    }
+    .am-result::after{
+        border: none;
+    }
+}
+:global{
+  .sticky-list .sticky-container .am-list-item { padding-left: 0; }
+  .sticky-list .sticky-container .am-list-line { padding-right: 0; }
+  .sticky-list .sticky-container .am-list-line .am-list-content { padding-top: 0; padding-bottom: 0; }
+  .sticky-list .sticky-container .sticky { padding: 7px 15px; transform: none; }
+}

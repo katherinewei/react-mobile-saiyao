@@ -1,0 +1,82 @@
+
+.subTitle{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.hotHistoryList{
+  //overflow: hidden;
+  background-color: #ffffff;
+  margin:0 15px 15px ;
+  padding: 30px 30px 0;
+  > div{
+    width:47%;
+    display: inline-block;
+    //float: left;
+    margin-right: 6%;
+    font-size: 30px;
+    margin-bottom: 25px;
+    position: relative;
+    a{
+      color: #000;
+    }
+    &:nth-child(2n){
+      margin-right: 0;
+    }
+    .img{
+      background-color: #ffffff;
+      box-shadow: 0 0 20px rgba(0,0,0,.2);
+      height:0;
+      padding-bottom: 100%;
+      img{
+        width:100%
+      }
+    }
+    p{
+      &.name{
+        color: #a6d841;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: 50px;
+        margin-top: 10px;
+      }
+
+      &.price{
+        &:before{
+          font-size: 24px;
+          content: '￥';
+        }
+        span{
+          &.hot{
+            background-color: #f26f41;
+          }
+          float: right;
+          padding: 2px 20px;
+          color: #ffffff;
+          font-size: 24px;
+          border-radius: 5px;
+        }
+      }
+    }
+
+
+  }
+  .soldOut{
+    background-color: rgba(0,0,0,0.2);
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+    span{
+      transform: rotate(-45deg);
+      display: block;
+      position: absolute;
+      left: -65px;
+      top: 25px;
+      background-color: rgba(0,0,0,0.2);
+      padding: 10px 80px;
+      color: #fff;
+    }
+  }
+}

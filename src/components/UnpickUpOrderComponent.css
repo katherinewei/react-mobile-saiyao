@@ -1,0 +1,113 @@
+.contentStyle {
+    background-color: #ffffff;
+}
+
+.pickContainerStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.266666rem 0;
+    margin-top: .04rem
+}
+
+.orderIdContainerStyle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.0666666rem;
+    line-height: 1.066666rem;
+}
+
+.orderIdStyle {
+    padding-left: .26666667rem;
+    font-size: .32rem;
+    color: #333333
+}
+
+.waitPayTextStyle {
+    padding-right: .26666667rem;
+    font-size: .32rem;
+    color: #64b357;
+}
+
+.payStatusTextStyle {
+    composes: waitPayTextStyle;
+
+}
+
+.pickNumStyle {
+    display: block;
+    font-size: .32rem;
+    color: #333333;
+    padding-left: .26666667rem
+}
+.pickNumStyleTime{
+    display: block;
+    font-size: .266666rem;
+    color: #999999;
+    padding-left: .26666667rem;
+    margin-top: 0.266666rem;
+}
+.qrShowStyle {
+    font-size: .32rem;
+    color: #333333;
+    color: #666666;
+    border-radius: .06666667rem;
+    border: 1px solid #666666;
+    width: 2rem;
+    height: .68rem;
+    line-height: 0.68rem;
+    margin-right: .26666667rem;
+    font-size: .32rem;
+    text-align: center;
+}
+
+.sumTextStyle {
+    font-size: .32rem;
+    color: #333333;
+    padding-right: .26666667rem;
+    padding-top: .30666667rem;
+}
+
+.pickTimeContainerStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pickLastTimeStyle {
+    font-size: .3rem;
+    color: #999999;
+    padding-left: .26666667rem;
+    display: flex;
+    padding-bottom: .30666667rem
+}
+
+.priceSignStyle {
+    font-size: .32rem;
+    padding-right: .05333333rem;
+    padding-bottom: .05333333rem;
+}
+
+.payContainerStyle {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 1.24rem
+}
+
+.payTextStyle {
+    color: #f42727;
+    border-radius: .06666667rem;
+    border: 1px solid #f42727;
+    width: 2rem;
+    height: .68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .26666667rem;
+    font-size: .32rem
+}
+
